@@ -17,18 +17,18 @@ This project is to analyze Airbnb listing data on Boston 2021. (Latest scraped d
 
 Oct 2021
 
-—
+---- 
 
 ### Author
 Weiming Chen (Alan)
 
-—
+---- 
 
 ### Data Source
 [http://insideairbnb.com/get-the-data.html][1]
 [http://data.insideairbnb.com/united-states/ma/boston/2021-09-19/data/listings.csv.gz][2] (19 September, 2021)
 
-—
+---- 
 
 ### Libraries Used
 - numpy
@@ -37,20 +37,20 @@ Weiming Chen (Alan)
 - sklearn
 - (Python 3.9 / Jupyter Notebook)
 
-—
+---- 
 
 ### Motivation for The Project
 The main goal is to build a Airbnb Listing Price Estimator model by implementing machine learning from Boston 2021 data to generate a LinearRegression model. 
 Host, agency, or end user can use this model to estimate / predict  listing prices by inputing some independent variables. 
 I also tried to find out what most recent amenities are listed in Boston listing that new host might considering for his/her new listing. And some others like: most demanded/popular districts; price ranges distribution.
 
-—
+---- 
 
 ### Files
 - /files/Boston_airbnb_2021/listings.csv
 - boston_airbnb_2021_refactor.ipynb_
 
-—
+---- 
 
 ### Summary of the results
 The Boston Airbnb Price Estimator/Predictor model I built based on this dataset is able to achieve 0.62 R-squared for training score, and 0.6 r-squared score for test score. The model can explain at least 60% of the variabilities of the data, could be a barebone working model in real life. 
@@ -64,7 +64,7 @@ Higher standard $180-220 also quite common in Boston also;
 Listing offerings drop significantly  after \> $220. 
 Listing price median is $141 which makes more sense than mean: $191 as it might be affected/stretched by outlier in the data ($10000.00 per night)
 
-—
+---- 
 
 ### Acknowledgment
 - Code snippet used about the function of train test, coefficients from Udacity example. 
