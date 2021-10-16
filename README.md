@@ -10,7 +10,7 @@
 - Summary of the results
 - Acknowledgment
 
-—
+---- 
 
 ### Project Background
 This project is to analyze Airbnb listing data on Boston 2021. (Latest scraped data from Airbnb OpenData at the time of writing)
