@@ -25,8 +25,8 @@ Weiming Chen (Alan)
 ---- 
 
 ### Data Source
-[http://insideairbnb.com/get-the-data.html][1]
-[http://data.insideairbnb.com/united-states/ma/boston/2021-09-19/data/listings.csv.gz][2] (19 September, 2021)
+- [http://insideairbnb.com/get-the-data.html][1]
+- [http://data.insideairbnb.com/united-states/ma/boston/2021-09-19/data/listings.csv.gz][2] (19 September, 2021)
 
 ---- 
 
@@ -53,6 +53,7 @@ I also tried to find out what most recent amenities are listed in Boston listing
 ---- 
 
 ### Summary of the results
+
 The Boston Airbnb Price Estimator/Predictor model I built based on this dataset is able to achieve 0.62 R-squared for training score, and 0.6 r-squared score for test score. The model can explain at least 60% of the variabilities of the data, could be a barebone working model in real life. 
 
 However, for more accountable on predictability (aiming for \>0.7), I might need to train on more Boston pass data and experiment different features selection combination. (The model used 3000 instances/rows after cleaning and hot-one encoded categorical variables) I might aim for 6000 working(cleaned) instances to train. 
