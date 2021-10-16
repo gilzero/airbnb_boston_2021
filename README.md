@@ -17,6 +17,9 @@ This project is to analyze Airbnb listing data on Boston 2021. (Latest scraped d
 
 Oct 2021
 
+For full article explaining this project, link below: 
+[https://weimingchenzero.medium.com/inside-airbnb-boston-2021-building-a-machine-learning-price-predictor-model-for-boston-listings-d6bcbe13b0f9][1]
+
 ---- 
 
 ### Author
@@ -25,8 +28,8 @@ Weiming Chen (Alan)
 ---- 
 
 ### Data Source
-- [http://insideairbnb.com/get-the-data.html][1]
-- [http://data.insideairbnb.com/united-states/ma/boston/2021-09-19/data/listings.csv.gz][2] (19 September, 2021)
+- [http://insideairbnb.com/get-the-data.html][2]
+- [http://data.insideairbnb.com/united-states/ma/boston/2021-09-19/data/listings.csv.gz][3] (19 September, 2021)
 
 ---- 
 
@@ -47,8 +50,8 @@ I also tried to find out what most recent amenities are listed in Boston listing
 ---- 
 
 ### Files
-- /files/Boston_airbnb_2021/listings.csv
-- boston_airbnb_2021_refactor.ipynb_
+- /files/Boston\_airbnb\_2021/listings.csv
+- boston\_airbnb\_2021\_refactor.ipynb\_
 
 ---- 
 
@@ -73,5 +76,6 @@ Listing price median is $141 which makes more sense than mean: $191 as it might 
 - Some helper solution founds on StackOverflow. 
 - Airbnb OpenData
 
-[1]:	http://insideairbnb.com/get-the-data.html
-[2]:	http://data.insideairbnb.com/united-states/ma/boston/2021-09-19/data/listings.csv.gz
+[1]:	https://weimingchenzero.medium.com/inside-airbnb-boston-2021-building-a-machine-learning-price-predictor-model-for-boston-listings-d6bcbe13b0f9
+[2]:	http://insideairbnb.com/get-the-data.html
+[3]:	http://data.insideairbnb.com/united-states/ma/boston/2021-09-19/data/listings.csv.gz
