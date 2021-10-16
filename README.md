@@ -71,6 +71,7 @@ Listing price median is $141 which makes more sense than mean: $191 as it might 
 - Code snippet used about the function of train test, coefficients from Udacity example. 
 - Plot on price range distribution inspired by the book “Data Science from Scratch” - Visualization chapter. 
 - Some helper solution founds on StackOverflow. 
+- Airbnb OpenData
 
 [1]:	http://insideairbnb.com/get-the-data.html
 [2]:	http://data.insideairbnb.com/united-states/ma/boston/2021-09-19/data/listings.csv.gz
